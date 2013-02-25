@@ -1,6 +1,10 @@
 {
   "name": "petition_map",
   "version": "0.0.0",
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  },
   "description": "Where the peaple signed a petition",
   "main": "app.js",
   "scripts": {
