@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  
+  <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="/css/style.css" media="all" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/d3.v3.min.js"></script>
+  <script src="/js/queue.v1.min.js"></script>
+  <script src="/js/topojson.v0.min.js"></script>
+  <script src="http://cdn.sockjs.org/sockjs-0.3.min.js"></script>
+
+</head>
+<body>
+  <div class="petition">
+    <h1>Where the People</h1>
+    <h3>Petition signatures as a percentage of population</h3> 
+    
+    <h2 id="title"></h2>
+    
+    <div id="description"></div>
+    <div id="loading"></div>
+    <input type="text" id="petitionId" value="50cac54dc988d4d27b00000b" /><button id="getPetition" class="btn btn-primary">Get Petition</button>
+    <div id="day"></div>
+    <script src="/js/main.js"></script>
+  </div>
+</body>
+</html>

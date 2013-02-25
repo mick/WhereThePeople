@@ -1,0 +1,19 @@
+{
+  "name": "petition_map",
+  "version": "0.0.0",
+  "description": "Where the peaple signed a petition",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mick Thompson <dthompson@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.1.0",
+    "sockjs": "~0.3.5",
+    "node-static": "~0.6.7",
+    "request": "~2.14.0",
+    "async": "~0.2.5"
+  }
+}

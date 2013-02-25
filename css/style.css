@@ -1,0 +1,52 @@
+body{ 
+  background:#eee;
+}
+.counties{
+  fill:#fff;
+}
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.q0-9 { fill:rgb(247,251,255); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
+
+h1{
+  color:#333;
+}
+
+h2, h3{
+  color:#666;
+}
+#title{ 
+  margin-top:20px;
+}
+#description{ 
+  margin-bottom:20px;
+}
+#day{ 
+  margin-top:10px;
+  font-size:36px;
+  text-align:right;
+}
+.btn{ 
+  margin-left:10px;
+  margin-top:-8px;
+}
+.petition{ 
+  padding:20px;
+  width:960px;
+  margin:auto;
+  border-left:solid 1px #ddd;
+  border-right:solid 1px #ddd;
+  background:#fff;
+}
