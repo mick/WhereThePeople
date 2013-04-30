@@ -7,3 +7,7 @@ Uses:
   Node.js
   d3.js
   
+  
+  
+  
+  This was done quickly for a hackathon.. a much better version is in the works :)
